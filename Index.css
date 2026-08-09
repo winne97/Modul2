@@ -17,6 +17,7 @@ html {
   color: #fff;
   text-decoration: none;
   transition-duration: 250ms;
+  text-align: center;
 }
 
 .button:hover {
@@ -40,9 +41,10 @@ nav {
   text-align: center;
   gap: 1rem;
   font-size: 0.8rem;
-  /* position: sticky;
+  /* menu bar sticking to the top */
+  position: sticky;
   top: 0;
-  background-color: #1a1a1a; */
+  background-color: #1a1a1a;
 }
 
 .menu {
@@ -120,6 +122,7 @@ h2 {
 
 .about-description {
   color: var(--text-color);
+  /* possibly justified text: */
   /* text-align: justify; */
 }
 
@@ -230,7 +233,7 @@ h2 {
 }
 
 footer {
-  background-color: #3b3a3a;
+  background-color: #2f2f2f;
   color: var(--text-color);
   margin-top: 2rem;
   display: flex;
