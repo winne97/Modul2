@@ -6,12 +6,12 @@
     <title>Pizzeria Mamma Mia</title>
     <link rel="stylesheet" href="index.css" />
   </head>
-  <nav>
-    <a class="menu" href="#about">Über uns</a>
-    <a class="menu" href="#">Speise&shy;karte</a>
-    <a class="menu" href="#info-opening">Öffnungs&shy;zeiten</a>
-  </nav>
   <body>
+    <nav>
+      <a class="menu" href="#about">Über uns</a>
+      <a class="menu" href="#">Speise&shy;karte</a>
+      <a class="menu" href="#info-opening">Öffnungs&shy;zeiten</a>
+    </nav>
     <section class="hero-section">
       <h1>
         Pizzeria <br />
@@ -20,7 +20,9 @@
       <p class="hero-description">
         Original italienische Küche aus der Toskana
       </p>
-      <a id="hero-button" class="button" href="#">Öffnungszeiten ansehen</a>
+      <a id="hero-button" class="button" href="#info-opening"
+        >Öffnungszeiten ansehen</a
+      >
     </section>
     <section id="about" class="about-section container">
       <div class="about-text">
@@ -41,13 +43,11 @@
         <a id="about-button" class="button" href="#">Zur Speisekarte</a>
       </div>
       <div class="all-pictures">
-        <div class="one-picture">
-          <img
-            class="about-pictures"
-            src="Bilder/Trattoria_Bild1.webp"
-            alt="Trattoria"
-          />
-        </div>
+        <img
+          class="about-pictures one-picture"
+          src="Bilder/Trattoria_Bild1.webp"
+          alt="Trattoria"
+        />
         <div class="two-pictures">
           <img
             class="about-pictures"

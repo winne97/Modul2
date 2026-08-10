@@ -139,6 +139,12 @@ h2 {
   gap: 0.5rem;
 }
 
+.about-pictures {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
 .one-picture {
   width: 50%;
 }
@@ -146,14 +152,7 @@ h2 {
 .two-pictures {
   display: flex;
   flex-direction: column;
-  width: 50%;
   gap: 0.5rem;
-}
-
-.about-pictures {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
 }
 
 .opening-section {
