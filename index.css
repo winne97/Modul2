@@ -8,6 +8,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* Abstand beim automatischen scrollen auf den Abschnitt damit die section nicht überdeckt wird von der menu bar */
+  scroll-padding-top: 5rem;
 }
 
 .button {
@@ -41,6 +43,7 @@ nav {
   text-align: center;
   gap: 1rem;
   font-size: 0.8rem;
+  border-bottom: solid 1px var(--text-color);
   /* menu bar sticking to the top */
   position: sticky;
   top: 0;
